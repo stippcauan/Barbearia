@@ -1,9 +1,9 @@
 body {
-    background: #ff0000cc;
+    background: #ffffffcc;
 }
 
 .principal {
-    background: #cccc;
+    background: #fffeb3cc;
     padding: 30px;
 }
 
@@ -12,17 +12,30 @@ body {
 }
 
 .beneficios{
-    background: #ffff;
-    padding: 20px;
+    background: #d6bfbf;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20;
+    margin-right: 15%;
+}
+.imgbeneficios{
+    width:50%
 }
 p{
     text-align: center;
 }
 em strong{
-    color: #b7f0c8cc
+    color: #df0000cc
 }
 #banner{
-    width:100
+    width:30%
 }
 h1{
     text-align: center;
