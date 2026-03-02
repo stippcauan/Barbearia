@@ -15,6 +15,7 @@ body {
     background: #d6bfbf;
     padding: 30px;
 }
+
 h2{
     text-align: center;
 }
@@ -25,22 +26,35 @@ ul{
     width: 20;
     margin-right: 15%;
 }
+
 .imgbeneficios{
     width:50%
 }
+
 p{
     text-align: center;
 }
+
 em strong{
     color: #df0000cc
 }
+
 #banner{
-    width:30%
+    width:100%
 }
+
 h1{
     text-align: center;
 }
 
 #missao{
     font-size: 20px;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.centralizado{
+    text-align: center;
 }
