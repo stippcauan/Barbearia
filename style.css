@@ -1,68 +1,188 @@
-body{
-margin : 0px;
-padding: 0px;
+body {
+    background: #ddaf5800;
 }
 
-header {
-background: #BBBBBB;
-padding: 20px 0;
+.principal {
+    background: #fffeb3cc;
+    padding: 30px;
 }
 
-.caixa {
-position: relative;
-width: 940px;
-margin: 0 auto;
-}
-
-nav {
-position: absolute;
-top: 110px;
-right: 0;
-}
-
-nav li {
-display: inline;
-margin: 0 0 0 15px;
-}
-
-nav a {
-text-transform: uppercase;
-color: #000000;
-font-weight: bold;
-font-size: 22px;
-text-decoration: none;
-}
-
-nav a:hover {
-color: #C78C19;
-text-decoration: underline;
-}
-
-main {
-width: 940px;
-margin: 0 auto;
-}
-
-.principal{
-background: #CCCCCC;
-padding: 5%;
-
+.itens {
+    font-style: italic;
 }
 
 .beneficios {
-background: #BBBBBB;
-padding: 20px;
-font-size:20px;
+    background: hsla(56, 58%, 55%, 0.253);
+    padding: 30px;
 }
 
-.beneficios ul {
-display: inline-block;
-vertical-align: top;
-width: 20%;
-margin-right: 15%;
-line-height : 2.0;
+h2 {
+    text-align: center;
 }
 
-.imagembeneficios {
-width: 50%;
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20;
+    margin-right: 15%;
+}
+
+.imgbeneficios {
+    width: 50%
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+    color: #df0000cc
+}
+
+#banner {
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+/* PRODUTOS */
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #f3e523;
+}
+
+.produtos li:active {
+    border-color: #8c0808;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 10px 0;
+}
+
+.copyright {
+    color: #ebd085;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+
+/* CONTATO */
+form {
+    margin: 40px 0;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+form h1 {
+    text-align: center;
+    background-color: orange;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+select,
+textarea {
+    display: block;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-texto {
+    width: 50%;
+    font-size: 18px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px;
+    background: orange;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+    font-style: italic;
+}
+
+
+/*tabela de horarios */
+.horarios {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 18px;
+    border: solid gray 2px;
+    box-sizing: flex;
+    margin-bottom: 20px;
+}
+
+.itens {
+    font-style: italic
 }
